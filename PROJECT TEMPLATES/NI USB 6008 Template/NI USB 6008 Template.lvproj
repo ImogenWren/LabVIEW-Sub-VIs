@@ -23,6 +23,7 @@
 		<Item Name="Controls" Type="Folder"/>
 		<Item Name="DAQ VIs" Type="Folder">
 			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/DAQ Digital Output.vi"/>
+			<Item Name="DAQ Multi IO Init.vi" Type="VI" URL="../Sub VIs/DAQ Multi IO Init.vi"/>
 			<Item Name="DAQ Set Analog Pin.vi" Type="VI" URL="../../../DAQ VIs/DAQ Set Analog Pin.vi"/>
 			<Item Name="Init DAQ Analog Out.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Analog Out.vi"/>
 			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Digital Output.vi"/>
@@ -65,11 +66,10 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="DAQ Refnums.ctl" Type="VI" URL="../../../../Muscle Actuator/Muscle Actuator LabV/controls/DAQ Refnums.ctl"/>
+			<Item Name="DAQ Refnums.ctl" Type="VI" URL="../../../../Muscle Actuator/Muscle Actuator LabV Analog/Controls/DAQ Refnums.ctl"/>
 			<Item Name="Status Lights.ctl" Type="VI" URL="../../../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="DAQ Multi IO Init.vi" Type="VI" URL="../Sub VIs/DAQ Multi IO Init.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
