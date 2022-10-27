@@ -21,6 +21,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder"/>
+		<Item Name="DAQ VIs" Type="Folder">
+			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/DAQ Digital Output.vi"/>
+			<Item Name="DAQ Set Analog Pin.vi" Type="VI" URL="../../../DAQ VIs/DAQ Set Analog Pin.vi"/>
+			<Item Name="Init DAQ Analog Out.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Analog Out.vi"/>
+			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Digital Output.vi"/>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Documentation Images" Type="Folder">
@@ -59,9 +65,11 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="DAQ Refnums.ctl" Type="VI" URL="../../../../Muscle Actuator/Muscle Actuator LabV/controls/DAQ Refnums.ctl"/>
 			<Item Name="Status Lights.ctl" Type="VI" URL="../../../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="DAQ Multi IO Init.vi" Type="VI" URL="../Sub VIs/DAQ Multi IO Init.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -227,8 +235,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/DAQ Digital Output.vi"/>
-			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Digital Output.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
